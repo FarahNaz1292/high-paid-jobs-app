@@ -1,31 +1,53 @@
+'use client'
+
 import React from 'react'
 import Navbar from '../Shared/Navabar/Navbar'
 import { Separator } from "@/components/ui/separator"
 import Image from 'next/image'
 import MaskGroup from "../../../public/Maskgroup (1).webp"
+import { Button } from '../ui/button'
+import { Link } from 'lucide-react'
+import Arrow from "../../../public/arrow.svg"
 
 
 const Banner = () => {
   return (
-    <div className="bg-primary">
-      <Image src={MaskGroup} alt='Image' className='absolute top-0 right-0 animate-pulse z-10'/>
+    <div className=" relative bg-primary">
+      <Image src={MaskGroup} alt='Image' className='absolute top-0 right-0 animate-pulse z-10' />
       <Navbar />
       <div className='container mx-auto'>
-        <Separator className="my-4 " />
+        <Separator className="my-4 bg-gray-400" />
         <div className='m-10'>
           <div className="inline-flex m-4 p-3 items-center gap-2 rounded-full bg-white/10 backdrop-blur-sm border text-white border-white/20 animate-pulse"><span className="text-warn animate-in">🔥</span>99.99% GUARANTEED to get back your job!</div>
-          <div className='flex justify-between h-[300px] p-2'>
+          <div className='flex justify-between h-[300px] ml-10 p-2'>
             <div>
-              <h2 className="text-3xl md:text-5.5xl text-center md:text-left leading-tight font-extrabold text-balance font-sans text-white ">Get your Six-Figure <br /> job back in <br /><span className="relative text-yellow-500">8-16 Weeks<svg className="absolute left-0 w-full -bottom-3" height="20" viewBox="0 0 100 10" preserveAspectRatio="none"><path d="M0 5 Q50 0, 100 5" fill="none" stroke="currentColor" stroke-width="2" className="text-warn"></path></svg></span> <br />with our proven <br/> techniques.</h2>
+              <h2 className="text-3xl md:text-5.5xl text-center md:text-left leading-relaxed font-extrabold text-balance font-sans text-white ml-4">Get your Six-Figure <br /> job back in <br /><span className="relative text-yellow-500">8-16 Weeks<svg className="absolute left-0 w-full -bottom-3" height="20" viewBox="0 0 100 10" preserveAspectRatio="none"><path d="M0 5 Q50 0, 100 5" fill="none" stroke="currentColor" strokeWidth="2" className="text-warn"></path></svg></span> <br />with our proven <br /> techniques.</h2>
+              <p className='ml-5 mt-2 text-white font-sans'>Get access actively hiring 20+ premium recruiters today surrounding your location.</p>
             </div>
             <div className='mb-4'>
               <iframe src="https://player.vimeo.com/video/1065695538?h=2a872c4ae3&amp;autoplay=1" title="High Paid Jobs" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" className="w-full h-full CnP-mutatedIframe-0"></iframe>
 
             </div>
+
+          </div>
+          <div className='flex ml-20'>
+            <div>
+              <Button className='btn bg-[#EAC807] hover:bg-[#F5DE4D] rounded-full text-gray-600 m-4'>Get Started
+                <Image src={Arrow} alt='arrow' />
+                <Link href="/" />
+              </Button>
+
+            </div>
+            <div>
+              <Button className='btn  bg-white/10 rounded-full text-white m-4'>Join Next Webinar
+                <Image src={Arrow} alt='arrow' />
+                <Link href="/" />
+              </Button>
+            </div>
           </div>
         </div>
       </div>
-      <Image src={MaskGroup} alt='Image 2' className='absolute bottom-0 left-0  rotate-180 animate-pulse z-10'/>
+      <Image src={MaskGroup} alt='Image 2' className='absolute bottom-0 left-0 rotate-180 animate-pulse z-10' />
     </div>
   )
 }
