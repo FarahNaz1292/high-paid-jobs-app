@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner/Banner";
+import HighPayingCareer from "@/components/PathToHighPay/HighPayingCareer";
 import TicketToSucess from "@/components/TicketToSucess/TicketToSucess";
 import Image from "next/image";
 
@@ -7,6 +8,7 @@ export default function Home() {
   <>
  <Banner/>
  <TicketToSucess/>
+ <HighPayingCareer/>
 
   </>
   );
