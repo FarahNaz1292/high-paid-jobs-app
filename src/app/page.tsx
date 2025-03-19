@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner/Banner";
+import WhyChooseUs from "@/components/ChooseUs/WhyChooseUs";
 import DreamJob from "@/components/LandDreamJob/DreamJob";
 import HighPayingCareer from "@/components/PathToHighPay/HighPayingCareer";
 import SuccessStories from "@/components/SuccessStories/SuccessStories";
@@ -13,6 +14,7 @@ export default function Home() {
  <HighPayingCareer/>
  <DreamJob/>
  <SuccessStories/>
+ <WhyChooseUs/>
 
   </>
   );
