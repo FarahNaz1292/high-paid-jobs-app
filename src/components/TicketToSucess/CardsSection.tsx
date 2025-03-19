@@ -24,7 +24,7 @@ import React from 'react'
 const CardsSection = () => {
     return (
         <>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-6 mb-4 md:mb-10 p-6 mx-2 md:mx-auto">
+            <div className=" container grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-6 mb-4 md:mb-10 p-6 mx-2 md:mx-auto">
                 <Card>
                     <CardHeader>
                         <CardTitle className="flex justify-center items-center">
