@@ -6,8 +6,8 @@ import { Separator } from "@/components/ui/separator"
 import Image from 'next/image'
 import MaskGroup from "../../../public/Maskgroup (1).webp"
 import { Button } from '../ui/button'
-import { Link } from 'lucide-react'
 import Arrow from "../../../public/arrow.svg"
+import Link from 'next/link'
 
 
 const Banner = () => {

@@ -2,9 +2,10 @@
 import React from 'react'
 import CardsSection from './CardsSection'
 import { Button } from '../ui/button'
-import { Link } from 'lucide-react'
+
 import Arrow from "../../../public/arrow.svg"
 import Image from 'next/image'
+import Link from 'next/link'
 
 const TicketToSucess = () => {
   return (
@@ -21,7 +22,7 @@ const TicketToSucess = () => {
         <div className='flex justify-center items-center m-4'>
           <Button className='btn bg-primary rounded-full text-white m-4 p-4 text-lg'>Book Free Consulatation
             <Image src={Arrow} alt='arrow'/>
-            <Link href="/" />
+            <Link href={"/"} />
           </Button>
 
         </div>
