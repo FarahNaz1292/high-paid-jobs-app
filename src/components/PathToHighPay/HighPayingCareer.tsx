@@ -16,7 +16,7 @@ const HighPayingCareer = () => {
         <>
             <div className="bg-secondary-foreground">
                 <div className='container mx-auto'>
-                    <h1 className='max-w-[320px] md:max-w-[739px] mx-auto text-2xl md:text-5xl font-bold text-black leading-tight  text-nowrap md:mb-4'>Your path to a High-Paying career</h1>
+                    <h1 className='max-w-[320px] md:max-w-[739px] mx-auto text-2xl md:text-5xl font-bold text-black leading-tight  text-nowrap md:mb-4 pt-6'>Your path to a High-Paying career</h1>
                     <p className='text-[#5C5958] max-w-[270px] md:max-w-full dark:text-gray text-base md:text-lg mb-5 md:mb-10 text-center'>Follow our proven step-by-step process to land your dream job</p>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                         <div className="relative w-full">
