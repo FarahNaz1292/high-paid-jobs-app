@@ -6,8 +6,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import React from 'react'
 import { Button } from "../ui/button";
 import Link from "next/link";
-import Image from "next/image";
-import Arrow from "../../../public/arrow.svg"
+
 
 
 
@@ -15,7 +14,7 @@ import Arrow from "../../../public/arrow.svg"
 const HighPayingCareer = () => {
     return (
         <>
-            <div>
+            <div className="bg-secondary-foreground">
                 <div className='container mx-auto'>
                     <h1 className='max-w-[320px] md:max-w-[739px] mx-auto text-2xl md:text-5xl font-bold text-black leading-tight  text-nowrap md:mb-4'>Your path to a High-Paying career</h1>
                     <p className='text-[#5C5958] max-w-[270px] md:max-w-full dark:text-gray text-base md:text-lg mb-5 md:mb-10 text-center'>Follow our proven step-by-step process to land your dream job</p>
@@ -60,7 +59,7 @@ const HighPayingCareer = () => {
                                     <div>
                                         <h3 className="text-black text-xl font-semibold">
                                             Access 500+ Active Recruiters</h3>
-                                        <p className="text-gray-500">Our 500+ active recruiters will help you land multiple job offers within<br />the first 10 interviews.</p>
+                                        <p className="text-gray">Our 500+ active recruiters will help you land multiple job offers within<br />the first 10 interviews.</p>
                                     </div>
                                 </div>
                             </div>
@@ -115,7 +114,7 @@ const HighPayingCareer = () => {
                             <div className="bg-card text-card-foreground shadow w-full h-full lg:w-[482px] overflow-hidden border rounded-md border-primary">
                                 <Card className="bg-card text-card-foreground shadow w-full h-full lg:w-[482px] overflow-hidden border rounded-md border-primary">
 
-                                    <CardHeader className="bg-blue-600 text-white rounded-t-xl text-lg shadow overflow-hidden border-blue-500 ">
+                                    <CardHeader className="bg-blue-600 text-black rounded-t-xl text-lg shadow overflow-hidden border-blue-500 ">
                                         Job Prep Tracks
                                     </CardHeader>
 
@@ -125,61 +124,61 @@ const HighPayingCareer = () => {
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check w-6 h-6 rounded-full bg-[#DCFCE7] p-1 text-blue-600 border-blue-600">
                                                     <path d="M20 6 9 17l-5-5"></path>
                                                 </svg>
-                                                <span className="text-gray-700 font-semibold text-lg">CloudOps/DevOps (AWS)</span>
+                                                <span className="text-gray text-lg">CloudOps/DevOps (AWS)</span>
                                             </li>
                                             <li className="flex items-center space-x-2">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check w-6 h-6 rounded-full bg-[#DCFCE7] p-1 text-blue-600">
                                                     <path d="M20 6 9 17l-5-5"></path>
                                                 </svg>
-                                                <span className="text-gray-700 font-semibold text-lg">Full-Stack Web/Mobile (MERN)</span>
+                                                <span className="text-gray text-lg">Full-Stack Web/Mobile (MERN)</span>
                                             </li>
                                             <li className="flex items-center space-x-2">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check w-6 h-6 rounded-full bg-[#DCFCE7] p-1 text-blue-600">
                                                     <path d="M20 6 9 17l-5-5"></path>
                                                 </svg>
-                                                <span className="text-gray-700 font-semibold text-lg">Project/Product Management</span>
+                                                <span className="text-gray text-lg">Project/Product Management</span>
                                             </li>
                                             <li className="flex items-center space-x-2">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check w-6 h-6 rounded-full bg-[#DCFCE7] p-1 text-blue-600">
                                                     <path d="M20 6 9 17l-5-5"></path>
                                                 </svg>
-                                                <span className="text-gray-700 font-semibold text-lg">SQA Engineering</span>
+                                                <span className="text-gray text-lg">SQA Engineering</span>
                                             </li>
                                             <li className="flex items-center space-x-2">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check w-6 h-6 rounded-full bg-[#DCFCE7] p-1 text-blue-600">
                                                     <path d="M20 6 9 17l-5-5"></path>
                                                 </svg>
-                                                <span className="text-gray-700 font-semibold text-lg">Front-End Developer</span>
+                                                <span className="text-gray text-lg">Front-End Developer</span>
                                             </li>
                                             <li className="flex items-center space-x-2">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check w-6 h-6 rounded-full bg-[#DCFCE7] p-1 text-blue-600">
                                                     <path d="M20 6 9 17l-5-5"></path>
                                                 </svg>
-                                                <span className="text-gray-700 font-semibold text-lg">Back-End Developer</span>
+                                                <span className="text-gray text-lg">Back-End Developer</span>
                                             </li>
                                             <li className="flex items-center space-x-2">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check w-6 h-6 rounded-full bg-[#DCFCE7] p-1 text-blue-600">
                                                     <path d="M20 6 9 17l-5-5"></path>
                                                 </svg>
-                                                <span className="text-gray-700 font-semibold text-lg">Software Engineer</span>
+                                                <span className="text-gray text-lg">Software Engineer</span>
                                             </li>
                                             <li className="flex items-center space-x-2">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check w-6 h-6 rounded-full bg-[#DCFCE7] p-1 text-blue-600">
                                                     <path d="M20 6 9 17l-5-5"></path>
                                                 </svg>
-                                                <span className="text-gray-700 font-semibold text-lg">AI Engineer</span>
+                                                <span className="text-gray text-lg">AI Engineer</span>
                                             </li>
                                             <li className="flex items-center space-x-2">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check w-6 h-6 rounded-full bg-[#DCFCE7] p-1 text-blue-600">
                                                     <path d="M20 6 9 17l-5-5"></path>
                                                 </svg>
-                                                <span className="text-gray-700 font-semibold text-lg">More</span>
+                                                <span className="text-gray  text-lg">More</span>
                                             </li>
                                         </ul>
-                                        <p className="text-xs text-gray-500 mt-4 ml-4">
+                                        <p className="text-xs text-gray mt-4 ml-4">
                                             All tracks include job placement 99.99% guarantee to follow our
                                         </p>
-                                        <p className="text-xs  text-gray-500 text-center">techniques.</p>
+                                        <p className="text-xs  text-gray text-center">techniques.</p>
                                     </CardContent>
                                 </Card>
                             </div>
@@ -191,7 +190,7 @@ const HighPayingCareer = () => {
                 </div>
                 <div className='flex justify-center items-center m-4'>
                     <Button className='btn bg-primary rounded-full text-white m-4 p-4 text-lg'>Book Free Consulatation
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-chevron-right"><path d="m9 18 6-6-6-6"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-right"><path d="m9 18 6-6-6-6"></path></svg>
                         <Link href="/" />
                     </Button>
                 </div>
