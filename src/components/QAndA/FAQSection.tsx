@@ -3,6 +3,7 @@
 import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import Link from "next/link"
 
 export default function FAQSection() {
   const faqItems = [
@@ -48,20 +49,21 @@ export default function FAQSection() {
           <AccordionItem
             key={index}
             value={`item-${index}`}
-            className="border border-gray-200 rounded-md overflow-hidden bg-white px-0"
+            className="border border-gray-200 rounded-md overflow-hidden bg-background px-0"
           >
-            <AccordionTrigger className="px-4 py-4 hover:no-underline text-black ">{item.question}</AccordionTrigger>
-            <AccordionContent className="px-4 pb-4 text-gray pt-0">{item.answer}</AccordionContent>
+            <AccordionTrigger className="px-4 py-4 hover:no-underline text-stone-950 dark:text-white text-lg ">{item.question}</AccordionTrigger>
+            <AccordionContent className="px-4 pb-4 text-gray-500 dark:text-gray-400 pt-0">{item.answer}</AccordionContent>
           </AccordionItem>
         ))}
       </Accordion>
 
       <div className="text-center mt-10">
         <p className="mb-4 text-gray">Have more questions? Ask us during your FREE consultation!</p>
-        <Button className="bg-blue-700 hover:bg-blue-600 text-white px-6 rounded-full text-lg">
+   <Link href="#consultation">
+   <Button className="bg-primary hover:bg-blue-600 text-white px-6 rounded-full font-medium">
           Book Free Consultation
           <ArrowRight className="ml-2 h-4 w-4" />
-        </Button>
+        </Button></Link>
       </div>
     </div>
    </div>

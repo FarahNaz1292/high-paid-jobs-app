@@ -56,7 +56,7 @@ export default function PricingPlans() {
             </ul>
           </CardContent>
           <CardFooter>
-            <Button className="w-full rounded-full p-6 bg-blue-600 hover:bg-blue-700 font-medium">
+            <Button className="w-full rounded-full p-6 bg-blue-600 hover:bg-blue-700 text-white font-medium">
               Pay Now
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
@@ -99,7 +99,7 @@ export default function PricingPlans() {
             </ul>
           </CardContent>
           <CardFooter>
-            <Button className="w-full bg-white rounded-full p-6 text-blue-600 hover:bg-blue-600 hover:text-white font-medium">
+            <Button className="w-full bg-white dark:bg-[#313131] rounded-full p-6 text-blue-600 hover:bg-blue-600 dark:hover:bg-primary  hover:text-white dark:text-white font-medium">
               Pay Now
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>

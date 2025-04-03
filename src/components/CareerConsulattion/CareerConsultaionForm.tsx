@@ -47,7 +47,7 @@ export default function CareerConsultationForm() {
     <> 
   <div className="bg-foreground pb-10">
 <div className="container mx-auto pt-10 pb-10 ">
-<Card className="w-full container mx-auto max-w-6xl">
+<Card className="w-full container mx-auto max-w-6xl" id="consultation">
       <CardContent className="p-6">
         <div className="space-y-6">
           <div className="space-y-2">

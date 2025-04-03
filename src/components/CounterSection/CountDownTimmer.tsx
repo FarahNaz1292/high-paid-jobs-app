@@ -59,7 +59,7 @@ export default function CountdownTimer() {
 
   return (
     <div className="flex flex-col items-center justify-center mx-auto m-8 bg-background">
-      <h1 className="text-3xl font-bold text-center mb-8 text-gray-900">Door Closes for FREE Career Auditing</h1>
+      <h1 className="text-3xl font-bold text-center mb-8 text-gray">Door Closes for FREE Career Auditing</h1>
 
       <div className="flex gap-4">
         <div className="bg-red-600 text-white w-24 h-24 flex flex-col items-center justify-center rounded-md">

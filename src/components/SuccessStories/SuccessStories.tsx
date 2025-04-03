@@ -27,7 +27,7 @@ const SuccessStories = () => {
                     <Card className='bg-[#162033]'>
                         <CardHeader>
                             <CardTitle className=" ">
-                                <iframe src="https://player.vimeo.com/video/1065693603?h=0c54fe674c" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" className="w-200 h-96 aspect-video rounded-lg CnP-iframe-427"></iframe>
+                                <iframe src="https://player.vimeo.com/video/1065693603?h=0c54fe674c" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" className="w-full h-96 aspect-video rounded-lg CnP-iframe-427"></iframe>
                             </CardTitle>
                         </CardHeader>
                         <CardContent>
@@ -59,7 +59,7 @@ const SuccessStories = () => {
                     <Card className='bg-[#162033]'>
                         <CardHeader>
                             <CardTitle className=" ">
-                                <iframe src="https://player.vimeo.com/video/1065693522?h=9d231d3e62" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" className="w-200 h-96 aspect-video rounded-lg CnP-iframe-449"></iframe>
+                                <iframe src="https://player.vimeo.com/video/1065693522?h=9d231d3e62" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" className="w-full h-96 aspect-video rounded-lg CnP-iframe-449"></iframe>
                             </CardTitle>
                         </CardHeader>
                         <CardContent>
@@ -91,7 +91,7 @@ const SuccessStories = () => {
                     <Card className='bg-[#162033]'>
                         <CardHeader>
                             <CardTitle className=" ">
-                                <iframe src="https://player.vimeo.com/video/1065693295?h=00366a3997" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" className="w-200 h-96 aspect-video rounded-lg CnP-iframe-471"></iframe>
+                                <iframe src="https://player.vimeo.com/video/1065693295?h=00366a3997" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" className="w-full h-96 aspect-video rounded-lg CnP-iframe-493"></iframe>
                             </CardTitle>
                         </CardHeader>
                         <CardContent>
@@ -122,8 +122,8 @@ const SuccessStories = () => {
                     </Card>
                     <Card className='bg-[#162033]'>
                         <CardHeader>
-                            <CardTitle className=" ">
-                                <iframe src="https://player.vimeo.com/video/1065693202?h=b6bd98f94e" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" className="w-200 h-96 aspect-video rounded-lg CnP-iframe-493"></iframe>
+                            <CardTitle>
+                                <iframe src="https://player.vimeo.com/video/1065693202?h=b6bd98f94e" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" className="w-full h-96 aspect-video rounded-lg CnP-iframe-493"></iframe>
                             </CardTitle>
                         </CardHeader>
                         <CardContent>
@@ -156,9 +156,11 @@ const SuccessStories = () => {
                 
                 </div>
                 <div className='flex justify-center items-center'>
-                        <Button className='btn bg-[#EAC807] hover:bg-[#F5DE4D] rounded-full tracking-wider text-gray-600 m-2'>Book Free Consultation
-                            <Link href="/" />
+                     <Link href="#consultation">
+                     <Button className='btn bg-[#EAC807] hover:bg-[#F5DE4D] rounded-full tracking-wider text-gray-600 m-2'>Book Free Consultation
+                         
                         </Button>
+                     </Link>
                     </div>
             </div>
 
