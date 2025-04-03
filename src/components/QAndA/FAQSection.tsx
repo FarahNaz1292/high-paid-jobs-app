@@ -36,7 +36,8 @@ export default function FAQSection() {
   ]
 
   return (
-    <div className="container mx-auto py-16 px-4">
+   <div className="bg-foreground">
+     <div className="container mx-auto py-16 px-4">
       <div className="text-center mb-8">
         <h2 className="text-4xl text-black font-bold mb-2">Got Questions? We've Got Answers</h2>
         <p className="text-gray-600">Find answers to our most frequently asked questions</p>
@@ -47,22 +48,23 @@ export default function FAQSection() {
           <AccordionItem
             key={index}
             value={`item-${index}`}
-            className="border border-gray-200 rounded-md overflow-hidden px-0"
+            className="border border-gray-200 rounded-md overflow-hidden bg-white px-0"
           >
             <AccordionTrigger className="px-4 py-4 hover:no-underline text-black ">{item.question}</AccordionTrigger>
-            <AccordionContent className="px-4 pb-4 text-black pt-0">{item.answer}</AccordionContent>
+            <AccordionContent className="px-4 pb-4 text-gray pt-0">{item.answer}</AccordionContent>
           </AccordionItem>
         ))}
       </Accordion>
 
       <div className="text-center mt-10">
-        <p className="mb-4 text-black">Have more questions? Ask us during your FREE consultation!</p>
-        <Button className="bg-blue-600 hover:bg-blue-700 text-white px-6 rounded-full">
+        <p className="mb-4 text-gray">Have more questions? Ask us during your FREE consultation!</p>
+        <Button className="bg-blue-700 hover:bg-blue-600 text-white px-6 rounded-full text-lg">
           Book Free Consultation
           <ArrowRight className="ml-2 h-4 w-4" />
         </Button>
       </div>
     </div>
+   </div>
   )
 }
 

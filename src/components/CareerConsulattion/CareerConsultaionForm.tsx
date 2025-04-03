@@ -45,12 +45,14 @@ export default function CareerConsultationForm() {
 
   return (
     <> 
-    <Card className="w-full max-w-3xl">
+  <div className="bg-foreground pb-10">
+<div className="container mx-auto pt-10 pb-10 ">
+<Card className="w-full container mx-auto max-w-6xl">
       <CardContent className="p-6">
         <div className="space-y-6">
           <div className="space-y-2">
-            <h1 className="text-2xl font-bold">Book a FREE Career Consultation</h1>
-            <p className="text-gray-500">
+            <h1 className="text-2xl font-bold text-black">Book a FREE Career Consultation</h1>
+            <p className="text-gray">
               Please fill out the form below to schedule a 15-minute career auditing session
             </p>
           </div>
@@ -63,7 +65,7 @@ export default function CareerConsultationForm() {
                   name="name"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel className="text-base">
+                      <FormLabel className="text-base text-black">
                         Name <span className="text-red-500">*</span>
                       </FormLabel>
                       <FormControl>
@@ -79,7 +81,7 @@ export default function CareerConsultationForm() {
                   name="mobile"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel className="text-base">
+                      <FormLabel className="text-base text-black">
                         Mobile <span className="text-red-500">*</span>
                       </FormLabel>
                       <FormControl>
@@ -96,7 +98,7 @@ export default function CareerConsultationForm() {
                 name="email"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="text-base">
+                    <FormLabel className="text-base text-black">
                       Email <span className="text-red-500">*</span>
                     </FormLabel>
                     <FormControl>
@@ -112,7 +114,7 @@ export default function CareerConsultationForm() {
                 name="dateTime"
                 render={({ field }) => (
                   <FormItem className="flex flex-col">
-                    <FormLabel className="text-base">
+                    <FormLabel className="text-base text-black">
                       What is the best time for a 15-minute career auditing session?{" "}
                       <span className="text-red-500">*</span>
                     </FormLabel>
@@ -152,7 +154,7 @@ export default function CareerConsultationForm() {
                   name="employed"
                   render={({ field }) => (
                     <FormItem className="space-y-3">
-                      <FormLabel className="text-base">
+                      <FormLabel className="text-base text-black">
                         Are you currently employed? <span className="text-red-500">*</span>
                       </FormLabel>
                       <FormControl>
@@ -165,13 +167,13 @@ export default function CareerConsultationForm() {
                             <FormControl>
                               <RadioGroupItem value="Yes" />
                             </FormControl>
-                            <FormLabel className="font-normal">Yes</FormLabel>
+                            <FormLabel className="font-normal text-black">Yes</FormLabel>
                           </FormItem>
                           <FormItem className="flex items-center space-x-3 space-y-0">
                             <FormControl>
                               <RadioGroupItem value="No" />
                             </FormControl>
-                            <FormLabel className="font-normal">No</FormLabel>
+                            <FormLabel className="font-normal text-black">No</FormLabel>
                           </FormItem>
                         </RadioGroup>
                       </FormControl>
@@ -185,7 +187,7 @@ export default function CareerConsultationForm() {
                   name="jobSwitch"
                   render={({ field }) => (
                     <FormItem className="space-y-3">
-                      <FormLabel className="text-base">
+                      <FormLabel className="text-base text-black">
                         Are you looking for job switch? <span className="text-red-500">*</span>
                       </FormLabel>
                       <FormControl>
@@ -198,13 +200,13 @@ export default function CareerConsultationForm() {
                             <FormControl>
                               <RadioGroupItem value="Yes" />
                             </FormControl>
-                            <FormLabel className="font-normal">Yes</FormLabel>
+                            <FormLabel className="font-normal text-black">Yes</FormLabel>
                           </FormItem>
                           <FormItem className="flex items-center space-x-3 space-y-0">
                             <FormControl>
                               <RadioGroupItem value="No" />
                             </FormControl>
-                            <FormLabel className="font-normal">No</FormLabel>
+                            <FormLabel className="font-normal text-black">No</FormLabel>
                           </FormItem>
                         </RadioGroup>
                       </FormControl>
@@ -224,7 +226,9 @@ export default function CareerConsultationForm() {
         </div>
       </CardContent>
     </Card>
+</div>
    <SecureFuture/>
+  </div>
     </>
     
   )

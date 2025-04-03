@@ -12,11 +12,11 @@ import Link from 'next/link'
 
 const Banner = () => {
   return (
-    <div className=" relative h-[700px] bg-primary p-10">
+    <div className=" relative h-[700px] bg-primary ">
       <Image src={MaskGroup} alt='Image' className='absolute top-0 right-0 animate-pulse z-10 w-lg' />
       <Navbar />
       <div className='container mx-auto'>
-        <Separator className="my-4 bg-gray-400" />
+        <Separator className="my-2 bg-gray-400" />
         <div className="inline-flex m-4 p-3 items-center gap-2 rounded-full bg-white/10 backdrop-blur-sm border text-white border-white/20 animate-pulse"><span className="text-warn animate-in">🔥</span>99.99% GUARANTEED to get back your job!
         </div>
         <div className='flex justify-between h-[300px] ml-10 p-2'>

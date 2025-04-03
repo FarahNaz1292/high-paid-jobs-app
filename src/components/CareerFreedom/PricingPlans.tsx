@@ -8,55 +8,55 @@ export default function PricingPlans() {
   return (
     <div className="container mx-auto px-4 py-12 max-w-6xl">
       <div className="text-center mb-10">
-        <h1 className="text-4xl font-bold mb-2">Unlock Your Career Freedom!</h1>
-        <p className="text-gray-600">
+        <h1 className="text-4xl font-bold mb-2 text-black">Unlock Your Career Freedom!</h1>
+        <p className="text-gray">
           Choose the assessment plan that works best for you with our flexible payment options
         </p>
       </div>
 
-      <div className="grid md:grid-cols-3 gap-6">
+      <div className="grid md:grid-cols-3 gap-8 container md:mx-auto">
         {/* Starter Plan */}
-        <Card className="bg-gray-50 flex flex-col h-full">
+        <Card className="bg-[#F3F5F7] dark:bg-[#434345] rounded-lg shadow border border-gray-200 dark:border-gray-600 p-6 flex flex-col mx-4 md:mx-0">
           <CardHeader className="pb-0">
-            <h2 className="text-lg font-bold">Plan: Starter</h2>
-            <p className="text-gray-600 text-sm">Quick 30 min interview</p>
+            <h2 className="text-lg font-bold text-black">Plan: Starter</h2>
+            <p className="text-gray text-sm">Quick 30 min interview</p>
           </CardHeader>
           <CardContent className="pt-4 flex-grow">
             <div className="mb-4">
-              <p className="text-sm text-gray-600">Starting from</p>
-              <p className="text-4xl font-bold">$49.99</p>
-              <p className="text-sm text-gray-600">One time payment</p>
+              <p className="text-sm text-gray">Starting from</p>
+              <p className="text-4xl font-bold text-black">$49.99</p>
+              <p className="text-sm text-gray">One time payment</p>
             </div>
 
             <ul className="space-y-2">
               <li className="flex items-start gap-2">
                 <Check className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
-                <span>30 Min Interview.</span>
+                <span className="text-gray">30 Min Interview.</span>
               </li>
               <li className="flex items-start gap-2">
                 <Check className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
-                <span>Provide Recording.</span>
+                <span className="text-gray">Provide Recording.</span>
               </li>
               <li className="flex items-start gap-2">
                 <Check className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
-                <span>Interview Assessment.</span>
+                <span className="text-gray">Interview Assessment.</span>
               </li>
               <li className="flex items-start gap-2">
                 <Check className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
-                <span>Delivery: 1 to 3 days.</span>
+                <span className="text-gray">Delivery: 1 to 3 days.</span>
               </li>
               <li className="flex items-start gap-2">
                 <Check className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
-                <span>Receive: details report and next action plan.</span>
+                <span className="text-gray">Receive: details report and next action plan.</span>
               </li>
               <li className="flex items-start gap-2">
                 <Check className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
-                <span>Provide 30 Local recruiter (small to large companies for open position)</span>
+                <span className="text-gray">Provide 30 Local recruiter (small to large companies for open position)</span>
               </li>
             </ul>
           </CardContent>
           <CardFooter>
-            <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">
+            <Button className="w-full rounded-full p-6 bg-blue-600 hover:bg-blue-700 font-medium">
               Pay Now
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
@@ -64,11 +64,11 @@ export default function PricingPlans() {
         </Card>
 
         {/* Essential Plan */}
-        <Card className="bg-blue-600 text-white relative flex flex-col h-full">
-          <div className="absolute right-4 top-0 bg-orange-400 text-xs font-medium px-2 py-1 rounded-b-md">
-            Most Popular
-          </div>
-          <CardHeader className="pb-0">
+        <Card className="bg-primary rounded-lg border border-blue-600 p-6 flex flex-col relative mx-4 md:mx-0">
+        <div className="absolute -right-6 top-8 bg-gradient-to-br from-[#FFB84D] to-[#F6A934] text-xs md:text-sm font-medium text-black px-3 py-1 rounded-t rounded-bl shadow-lg transform rotate-1 border-b-2 border-r-2 border-[#D88A20]">
+  Most Popular
+</div>
+          <CardHeader className="pb-0 mt-1">
             <h2 className="text-lg font-bold">Plan: Essential</h2>
             <p className="text-blue-100 text-sm">60 min technical interview and resume assessment</p>
           </CardHeader>
@@ -82,24 +82,24 @@ export default function PricingPlans() {
             <ul className="space-y-2">
               <li className="flex items-start gap-2">
                 <Check className="h-5 w-5 text-white mt-0.5 flex-shrink-0" />
-                <span>60 min interview.</span>
+                <span className="text-white">60 min interview.</span>
               </li>
               <li className="flex items-start gap-2">
                 <Check className="h-5 w-5 text-white mt-0.5 flex-shrink-0" />
-                <span>Deliver: Recording Interview, Resume Assessment and guidance!</span>
+                <span className="text-white">Deliver: Recording Interview, Resume Assessment and guidance!</span>
               </li>
               <li className="flex items-start gap-2">
                 <Check className="h-5 w-5 text-white mt-0.5 flex-shrink-0" />
-                <span>Receive: details report and next action plan</span>
+                <span className="text-white">Receive: details report and next action plan</span>
               </li>
               <li className="flex items-start gap-2">
                 <Check className="h-5 w-5 text-white mt-0.5 flex-shrink-0" />
-                <span>50 Local recruiter (small to large companies for open position)</span>
+                <span className="text-white">50 Local recruiter (small to large companies for open position)</span>
               </li>
             </ul>
           </CardContent>
           <CardFooter>
-            <Button className="w-full bg-white text-blue-600 hover:bg-blue-50">
+            <Button className="w-full bg-white rounded-full p-6 text-blue-600 hover:bg-blue-600 hover:text-white font-medium">
               Pay Now
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
@@ -107,55 +107,55 @@ export default function PricingPlans() {
         </Card>
 
         {/* Premium Plan */}
-        <Card className="bg-gray-50 flex flex-col h-full">
+        <Card className="bg-[#F3F5F7] dark:bg-[#434345] rounded-lg shadow border border-gray-200 dark:border-gray-600 p-6 flex flex-col mx-4 md:mx-0">
           <CardHeader className="pb-0">
-            <h2 className="text-lg font-bold">Plan: Premium</h2>
-            <p className="text-gray-600 text-sm">Interview, resume and current job application assessment</p>
+            <h2 className="text-lg font-bold text-black">Plan: Premium</h2>
+            <p className="text-gray text-sm">Interview, resume and current job application assessment</p>
           </CardHeader>
-          <CardContent className="pt-4 flex-grow">
+          <CardContent className="pt-2 flex-grow">
             <div className="mb-4">
-              <p className="text-sm text-gray-600">Starting From</p>
-              <p className="text-4xl font-bold">$149.99</p>
+              <p className="text-sm text-gray">Starting From</p>
+              <p className="text-4xl font-bold text-black">$149.99</p>
               <p className="text-sm text-gray-600">Upfront deposit, $149.99 installment for 24 months: Interest FREE</p>
             </div>
 
             <ul className="space-y-2">
               <li className="flex items-start gap-2">
                 <Check className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
-                <span>Duration: 2 Hours</span>
+                <span className="text-gray">Duration: 2 Hours</span>
               </li>
               <li className="flex items-start gap-2">
                 <Check className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
-                <span>Recruiter Interview</span>
+                <span className="text-gray">Recruiter Interview</span>
               </li>
               <li className="flex items-start gap-2">
                 <Check className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
-                <span>Tech Interview</span>
+                <span className="text-gray">Tech Interview</span>
               </li>
               <li className="flex items-start gap-2">
                 <Check className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
-                <span>Behavior interview</span>
+                <span className="text-gray">Behavior interview</span>
               </li>
               <li className="flex items-start gap-2">
                 <Check className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
-                <span>Resume Assessment</span>
+                <span className="text-gray">Resume Assessment</span>
               </li>
               <li className="flex items-start gap-2">
                 <Check className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
-                <span>Current job application assessment</span>
+                <span className="text-gray">Current job application assessment</span>
               </li>
               <li className="flex items-start gap-2">
                 <Check className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
-                <span>Receive: details report and next action plan</span>
+                <span className="text-gray">Receive: details report and next action plan</span>
               </li>
               <li className="flex items-start gap-2">
                 <Check className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
-                <span>70 Local recruiter (small to large companies for open position)</span>
+                <span className="text-gray">70 Local recruiter (small to large companies for open position)</span>
               </li>
             </ul>
           </CardContent>
           <CardFooter>
-            <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">
+            <Button className="w-full rounded-full p-6 bg-blue-600 hover:bg-blue-700 text-white font-medium">
               Pay Now
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>

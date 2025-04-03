@@ -23,7 +23,7 @@ const HighPayingCareer = () => {
                             <div className="relative">
                                 <div className="flex gap-4 m-4">
                                     <div>
-                                        <div className="rounded-full bg-[#E7EDFD] text-[#5F81E1] w-6 text-center font-bold">
+                                        <div className="rounded-full bg-[#E7EDFD] text-primary w-6 text-center font-bold">
                                             <span>1</span>
                                         </div>
                                         <div className="absolute left-7 top-7 bottom-0 w-0 border-l-2 border-dashed border-[#E7EDFD] h-16"></div>
@@ -95,7 +95,7 @@ const HighPayingCareer = () => {
                             <div className="relative">
                                 <div className="flex gap-4 m-4">
                                     <div>
-                                        <div className="rounded-full bg-[#E7EDFD] text-[#5F81E1] w-6 text-center font-bold">
+                                        <div className="rounded-full bg-[#E7EDFD] text-primary w-6 text-center font-bold">
                                             <span>6</span>
                                         </div>
                                         {/* <div className="absolute left-7 top-7 bottom-0 w-0 border-l-2 border-dashed border-[#E7EDFD] h-16"></div> */}
@@ -112,13 +112,13 @@ const HighPayingCareer = () => {
                         </div>
                         <div className="w-full h-full lg:w-auto">
                             <div className="bg-card text-card-foreground shadow w-full h-full lg:w-[482px] overflow-hidden border rounded-md border-primary">
-                                <Card className="bg-card text-card-foreground shadow w-full h-full lg:w-[482px] overflow-hidden border rounded-md border-primary">
+                                <Card className="bg-card text-card-foreground shadow w-full h-full lg:w-[482px] overflow-hidden border rounded-md border-primary relative">
 
-                                    <CardHeader className="bg-blue-600 text-black rounded-t-xl text-lg shadow overflow-hidden border-blue-500 ">
+                                    <CardHeader className="bg-primary absolute top-0 w-full text-white rounded-t-md text-lg shadow overflow-hidden border-blue-500 h-15">
                                         Job Prep Tracks
                                     </CardHeader>
 
-                                    <CardContent className="py-4">
+                                    <CardContent className="pt-12">
                                         <ul className="space-y-4">
                                             <li className="flex items-center space-x-2">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check w-6 h-6 rounded-full bg-[#DCFCE7] p-1 text-blue-600 border-blue-600">

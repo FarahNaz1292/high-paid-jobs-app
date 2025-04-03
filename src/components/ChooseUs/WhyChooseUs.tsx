@@ -7,7 +7,7 @@ export default function WhyChooseUs() {
     <div className="bg-foreground min-h-screen p-6 md:p-10">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-10">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray mb-2">Why Choose Us Over Others?</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-black mb-2">Why Choose Us Over Others?</h1>
           <p className="text-lg text-gray">See how our program delivers results where others fall short</p>
         </div>
 
