@@ -6,7 +6,7 @@ import Image from "next/image"
 export default function SecureFuture() {
   return (
     <div className="flex flex-col items-center container mx-auto justify-center bg-primary text-white max-w-6xl p-4 md:p-8 relative rounded-lg overflow-hidden">
-       <Image src={CtaRight} alt='Image' className='absolute top-0 -right-1/8 rotate-180 z-10 w-sm' />
+       <Image src={CtaRight} alt='Image' className='hidden md:block absolute top-0 -right-1/8 rotate-180 animate-pulse z-10 w-sm' />
       <div className="max-w-3xl mx-auto text-center space-y-6">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">Secure Your $100K+ Future Today!</h1>
 
@@ -34,7 +34,7 @@ export default function SecureFuture() {
           <span> 🚀 HighPaidJobs.us – The Fastest Path to a $100K+ Career!</span>
         </div>
       </div>
-      <Image src={CtaLeft} alt='Image' className='absolute top-0 -left-1/8 rotate-180  w-sm' />
+      <Image src={CtaLeft} alt='Image' className='absolute top-0 -left-1/8 rotate-180 animate-pulse w-sm hidden md:block ' />
     </div>
   )
 }

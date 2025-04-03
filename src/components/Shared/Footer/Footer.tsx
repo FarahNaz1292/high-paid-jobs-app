@@ -8,14 +8,15 @@ const Footer = () => {
   return (
     <footer className="bg-slate-950 text-slate-200 py-8 px-4">
       <div className="container mx-auto max-w-screen-xl">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid  md:grid-cols-3 gap-8">
           {/* Brand Section */}
           <div className="space-y-4">
            <Image src={CompanyLogo} alt='logo' width={150} height={100}/>
           </div>
 
-          {/* Company Links */}
-          <div className="space-y-4">
+      <div className="grid xs:grid-cols-1 sm:grid-cols-2 gap-8">
+            {/* Company Links */}
+            <div className="space-y-4">
             <h3 className="text-lg font-semibold">Company</h3>
             <ul className="space-y-2">
               <li><Link href="/about" className="text-sm hover:text-white transition-colors">About Us</Link></li>
@@ -34,6 +35,7 @@ const Footer = () => {
               <li><Link href="/faq" className="text-sm hover:text-white transition-colors">FAQ</Link></li>
             </ul>
           </div>
+      </div>
 
           {/* Contact Info */}
           <div className="space-y-4">

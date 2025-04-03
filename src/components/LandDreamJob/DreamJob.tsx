@@ -32,7 +32,7 @@ const DreamJob = () => {
       case 'assessment':
         return (
           <Card className='p-6 border-black shadow-xl w-full'>
-            <div className='grid grid-cols-3 gap-4 text-wrap'>
+            <div className='grid grid-cols-3 gap-4 '>
               {[
                 "30 to 120 min interview",
                 "40 to 70 local recruiter access",
@@ -137,7 +137,7 @@ const DreamJob = () => {
               <Card
                 key={card.key}
                 onClick={() => setActiveCard(card.key as typeof activeCard)}
-                className={`cursor-pointer w-xl p-4 flex  m-4 hover:border-primary transition ${
+                className={`cursor-pointer w-full md:max-w-xs p-4 flex  md:m-4 hover:border-primary transition ${
                   activeCard === card.key ? 'border-primary border-2' : ''
                 }`}
               >

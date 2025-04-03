@@ -69,13 +69,13 @@ export default function PricingPlans() {
   Most Popular
 </div>
           <CardHeader className="pb-0 mt-1">
-            <h2 className="text-lg font-bold">Plan: Essential</h2>
+            <h2 className="text-lg font-bold text-black">Plan: Essential</h2>
             <p className="text-blue-100 text-sm">60 min technical interview and resume assessment</p>
           </CardHeader>
           <CardContent className="pt-4 flex-grow">
             <div className="mb-4">
               <p className="text-sm text-blue-200">Starting From</p>
-              <p className="text-4xl font-bold">$99.99</p>
+              <p className="text-4xl font-bold text-black">$99.99</p>
               <p className="text-sm text-blue-200">Upfront deposit, $99.99 installment for 24 months: Interest FREE</p>
             </div>
 

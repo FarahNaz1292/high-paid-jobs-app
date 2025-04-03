@@ -58,27 +58,27 @@ export default function CountdownTimer() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center mx-auto m-8 bg-background">
+    <div className="flex flex-col items-center justify-center mx-auto m-6 lg:m-8 bg-background">
       <h1 className="text-3xl font-bold text-center mb-8 text-gray">Door Closes for FREE Career Auditing</h1>
 
       <div className="flex gap-4">
-        <div className="bg-red-600 text-white w-24 h-24 flex flex-col items-center justify-center rounded-md">
-          <span className="text-5xl font-bold">{formatNumber(timeLeft.days)}</span>
+        <div className="bg-red-600 text-white md:w-24 w-12 md:h-24 h-12 flex flex-col items-center justify-center rounded-md">
+          <span className="md:text-5xl font-bold">{formatNumber(timeLeft.days)}</span>
           <span className="text-sm">Days</span>
         </div>
 
-        <div className="bg-red-600 text-white w-24 h-24 flex flex-col items-center justify-center rounded-md">
-          <span className="text-5xl font-bold">{formatNumber(timeLeft.hours)}</span>
+        <div className="bg-red-600 text-white  md:w-24 w-12 md:h-24 h-12 flex flex-col items-center justify-center rounded-md">
+          <span className="md:text-5xl font-bold">{formatNumber(timeLeft.hours)}</span>
           <span className="text-sm">Hours</span>
         </div>
 
-        <div className="bg-red-600 text-white w-24 h-24 flex flex-col items-center justify-center rounded-md">
-          <span className="text-5xl font-bold">{formatNumber(timeLeft.minutes)}</span>
+        <div className="bg-red-600 text-white  md:w-24 w-14 md:h-24 h-12 flex flex-col items-center justify-center rounded-md">
+          <span className="md:text-5xl font-bold">{formatNumber(timeLeft.minutes)}</span>
           <span className="text-sm">Minutes</span>
         </div>
 
-        <div className="bg-red-600 text-white w-24 h-24 flex flex-col items-center justify-center rounded-md">
-          <span className="text-5xl font-bold">{formatNumber(timeLeft.seconds)}</span>
+        <div className="bg-red-600 text-white  md:w-24 w-14 md:h-24 h-12 flex flex-col items-center justify-center rounded-md">
+          <span className="md:text-5xl font-bold">{formatNumber(timeLeft.seconds)}</span>
           <span className="text-sm">Seconds</span>
         </div>
       </div>
