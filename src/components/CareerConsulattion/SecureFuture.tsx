@@ -1,4 +1,4 @@
-import { ArrowRight, Rocket } from "lucide-react"
+import { ArrowRight} from "lucide-react"
 import CtaLeft from "../../../public/cta-left.webp"
 import CtaRight from "../../../public/cta-right.webp"
 import Image from "next/image"

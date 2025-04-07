@@ -40,7 +40,7 @@ export default function FAQSection() {
    <div className="bg-foreground">
      <div className="container mx-auto py-16 px-4">
       <div className="text-center mb-8">
-        <h2 className="text-4xl text-black font-bold mb-2">Got Questions? We've Got Answers</h2>
+        <h2 className="text-4xl text-black font-bold mb-2">Got Questions? We&apos;ve Got Answers</h2>
         <p className="text-gray-600">Find answers to our most frequently asked questions</p>
       </div>
 

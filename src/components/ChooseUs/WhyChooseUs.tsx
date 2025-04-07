@@ -23,7 +23,7 @@ export default function WhyChooseUs() {
             </div>
             <h2 className="text-xl font-bold  mb-2 text-black">Guaranteed Job Placement</h2>
             <p className="text-gray  mb-4">
-              We guarantee you'll get hired or we keep working with you for free
+              We guarantee you&apos;ll get hired or we keep working with you for free
             </p>
 
             <div className="grid grid-cols-2 gap-2 mb-4">

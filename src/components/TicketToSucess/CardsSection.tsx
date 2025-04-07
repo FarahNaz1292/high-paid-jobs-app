@@ -78,7 +78,7 @@ const CardsSection = () => {
                         </CardTitle>
                         <CardDescription className="text-nowrap font-bold text-2xl text-black text-center">Probation Period <br />Support</CardDescription>
                         <p className=" text-center text-gray ">
-                            We're with you for your first 3-6 months<br />on the job.</p>
+                            We&apos;re with you for your first 3-6 months<br />on the job.</p>
                     </CardHeader>
 
                 </Card>
